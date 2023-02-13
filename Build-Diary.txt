@@ -9,3 +9,4 @@ import tailwind (import '../styles/globals.css';) to the layout.tsx, then delete
 which arrises from terminal.
 
 every component in app(folder) is a server component.
+server components are not allowed to use hooks, 'use client' changes component from server-client.
