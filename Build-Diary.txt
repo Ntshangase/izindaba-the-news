@@ -1,0 +1,9 @@
+Builder of apps.
+
+estimated time till completion is 3days and then i need to go into open source, which is the new exciting step for me.
+to buildthe app with tailwind already configure I used (npx create-next-app -e with-tailwindcss my-project) from
+(https://v2.tailwindcss.com/docs/guides/nextjs#install-tailwind-via-npm), then agred to the prompts ofcourse.
+then i created a new app folder in the root so that i can update to next.js 13 to do that check out
+(https://nextjs.org/docs/messages/experimental-app-dir-config).
+import tailwind (import '../styles/globals.css';) to the layout.tsx, then delete the index.tsx because of the conflict,
+which arrises from terminal.
