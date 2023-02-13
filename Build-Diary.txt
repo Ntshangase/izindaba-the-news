@@ -7,3 +7,5 @@ then i created a new app folder in the root so that i can update to next.js 13 t
 (https://nextjs.org/docs/messages/experimental-app-dir-config).
 import tailwind (import '../styles/globals.css';) to the layout.tsx, then delete the index.tsx because of the conflict,
 which arrises from terminal.
+
+every component in app(folder) is a server component.
