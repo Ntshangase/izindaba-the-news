@@ -12,7 +12,7 @@ function SearchBox() {
         if (!input) return;
 
         router.push(`/search?term=${input}`);
-    }
+    };
 
     return (
         <form 
