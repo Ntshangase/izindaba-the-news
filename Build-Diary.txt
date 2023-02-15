@@ -9,3 +9,5 @@ import tailwind (import '../styles/globals.css';) to the layout.tsx, then delete
 which arrises from terminal.
 
 every component in app(folder) is a server component.
+-registerdin the Github global student and i now have access to copilot.
+and got the gitlens extension
