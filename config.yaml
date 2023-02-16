@@ -1,0 +1,4 @@
+configurationset:
+  - configuration:
+      name: curl_import_config
+      authentication_dc65265d70: mordelles::stepzen.net+1000::25cb0c67a95cb381c0f8c5d10ad1df4762a7d07c58a1f044179e404dc3970b23

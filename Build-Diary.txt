@@ -13,3 +13,4 @@ server components are not allowed to use hooks, 'use client' changes component f
 
 -registerdin the Github global student and i now have access to copilot.
 and got the gitlens extension
+.for the error : Module not found: Can't resolve 'encoding' in , you can use npm add encoding.
