@@ -3,21 +3,21 @@ import sortNewsByImage from "./sortNewsByImage";
 
 const fetchNews = async (
   category?: Category | string,
-  keywords?: string,
+  Keywords?: string,
   isDynamic?: boolean
 ) => {
   const query = gql`
     query MyQuery(
       $access_key: String!
       $categories: String!
-      $keywords: String
+      $Keywords: String
     ) {
       myQuery(
         access_key: $access_key
         categories: $categories
         countries: "za,us"
         sort: "published_desc"
-        keywords: $keywords
+        Keywords: $Keywords
       ) {
         data {
           author
@@ -58,19 +58,25 @@ const fetchNews = async (
         variables: {
           access_key: process.env.MEDIASTACK_API_KEY,
           categories: category,
-          keywords: keywords,
+          Keywords: Keywords,
         },
       }),
     }
   );
 
   const newsResponse = await res.json();
+  console.log("newsResponse: ", newsResponse);
+
+    if (!newsResponse?.data?.myQuery) {
+        console.log("No news data found!");
+        return [];
+    }
 
   
 
   //Sort function by images vs no image present
-  const news = newsResponse.data ? sortNewsByImage(newsResponse.data.myQuery) : [];
-    // const news = sortNewsByImage(newsResponse.data.myQuery);
+  //const news = newsResponse.data ? sortNewsByImage(newsResponse.data.myQuery) : [];
+  const news = sortNewsByImage(newsResponse.data.myQuery);
 
   return news;
 };
