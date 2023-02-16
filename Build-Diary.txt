@@ -14,3 +14,10 @@ server components are not allowed to use hooks, 'use client' changes component f
 -registerdin the Github global student and i now have access to copilot.
 and got the gitlens extension
 .for the error : Module not found: Can't resolve 'encoding' in , you can use npm add encoding.
+.Just solved for a BUG and the bugRush is real, feeling great right now. I just realised as i'm writing this that 
+probably no one will read this i'm just taking up space in the cloud storage. Does these action qualify me as an 
+invader/coloniser of some sort because if you were to count all the cloud storage up there and see diagramatically
+who has contributed what I think that will be an exciting human mwasurement, definetly better than this trash thing 
+we call money.
+.Owk back to the bug, the thing was keywords insteasd of Keywords, how sweat. chatGPT was really useful this time
+around.
