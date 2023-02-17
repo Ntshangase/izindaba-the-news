@@ -24,3 +24,5 @@ around.
 
 .installed line clamp (https://tailwindcss.com/blog/multi-line-truncation-with-tailwindcss-line-clamp)
 rather than trancuate which is only for one line. lineclamp is user friendly.
+.I need to have news with images and save those as my hard data.
+.use control P to find and jump to file.
