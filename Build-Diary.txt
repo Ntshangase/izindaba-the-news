@@ -21,3 +21,9 @@ who has contributed what I think that will be an exciting human mwasurement, def
 we call money.
 .Owk back to the bug, the thing was keywords insteasd of Keywords, how sweat. chatGPT was really useful this time
 around.
+
+.installed line clamp (https://tailwindcss.com/blog/multi-line-truncation-with-tailwindcss-line-clamp)
+rather than trancuate which is only for one line. lineclamp is user friendly.
+.I need to have news with images and save those as my hard data.
+.use control P to find and jump to file.
+created a tag. with the idea to checkout how they work and get used to 'em.
