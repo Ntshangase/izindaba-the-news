@@ -25,3 +25,20 @@ pnpm create next-app --example with-tailwindcss with-tailwindcss-app
 ```
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+
+## Running Appplication
+
+  Using npm
+Run commands :
+
+npm install
+
+npm run dev
+
+  Or using yarn
+Run commands :
+
+npm install --global yarn
+
+yarn install
+yarn run dev
