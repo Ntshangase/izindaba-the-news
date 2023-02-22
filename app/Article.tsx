@@ -1,4 +1,5 @@
 import React from 'react'
+import ReadMoreButton from './ReadMoreButton';
 
 type Props = {
     article: Article;
@@ -32,6 +33,7 @@ function Article({article}: Props) {
             </div>
 
             {/**Read more button */}
+            <ReadMoreButton article={article} />
         </div>
     </article>
   )
