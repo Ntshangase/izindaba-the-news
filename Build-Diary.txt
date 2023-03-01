@@ -27,3 +27,10 @@ rather than trancuate which is only for one line. lineclamp is user friendly.
 .I need to have news with images and save those as my hard data.
 .use control P to find and jump to file.
 created a tag. with the idea to checkout how they work and get used to 'em.
+
+# During this build, I learnt: 
+- I gained expertise in handling dynamic data to ensure that the app's content remains current and relevant for users.
+- I explored the latest version of Nex JS, version 13, and its potential applications for building cutting-edge apps.
+- I deepened my understanding of GraphQL, a powerful query language for APIs, and utilized Stepzen to generate GraphQL data from their site, which allowed me to create data-driven applications that provide users with personalized and real-time information.
+- My proficiency in Tailwind CSS has reached an advanced level, which will enable me to create visually appealing and responsive designs for my upcoming projects.
+- Overall, the skills and knowledge I have gained through this project will undoubtedly benefit me in building future apps that meet the needs and expectations of my users.
