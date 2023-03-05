@@ -1,44 +1,23 @@
-# Next.js + Tailwind CSS Example
+# App in Summary
+- This is a live News application which is built using next.js 13
+- Fully responsive 
+- Stepzen graphQL Server
+- Pulls live news data from MediaStack API
+- DarkMode 
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+# Running Appplication 
 
-## Deploy your own
+- This application is already hosted on vercel you can click on the provided link for a quick view
+- To run the application on your local machine use the commands below
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+### Using npm
+  - npm install - to install all the dependencies into your machine
+  - npm run dev - this is to get the app running
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+### using yarn
+   - yarn install - to install all the dependencies into your machine
+   - yarn run dev - this is to get the app running
 
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
-
-## Running Appplication
-
-  Using npm
-Run commands :
-
-npm install
-
-npm run dev
-
-  Or using yarn
-Run commands :
-
-npm install --global yarn
-
-yarn install
-yarn run dev
+# What to expect
+![Screenshot (52)](https://user-images.githubusercontent.com/62051440/222968282-510c41b8-658a-4412-85ca-51c4d7372746.png)
+![Screenshot (53)](https://user-images.githubusercontent.com/62051440/222968284-9a749813-203b-4e7e-8c41-3c37c46d9b0d.png)
